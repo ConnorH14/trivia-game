@@ -42,7 +42,11 @@ export class QuestionsController{
     }
   }
 
-  checkAnswer(){
-    
+  correctAnswer(){
+    alert('correct')
+  }
+
+  incorrectAnswer(){
+    alert('no')
   }
 }
